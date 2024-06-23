@@ -28,7 +28,6 @@ exp_code = openai.Completion.create(
 )'''
 
 
-# "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"
 def check_token(token):
     try:
         openai.api_key = token
